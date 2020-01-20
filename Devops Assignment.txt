@@ -1,0 +1,68 @@
+Version Control System:
+A Version Control System are a set of system tools which enable a software team to manage the changes (addition, modification or deletion of code) made to the source code of any app or software over time. 
+A Version Control System relies on the Version Control Software (VCS) to monitor these changes. 
+A VCS which is also called as Revision control or Source control system, is a software tool that tracks and manages changes made to a filesystem or a database. 
+Version control helps in tracking changes made by several contributors as well as preventing concurrent work from clashing. 
+It is quite common that any new introductions made into a source code generate bugs on their own which has to be corrected via testing. So, a version control helps in keeping the development and testing hand in hand.
+
+Primary Benefits of Version Control Software:
+* Complete log of changes made to the source code: A complete history of all the changes made to the code helps in root cause analysis of the software by going back to the previous version of the software.
+* Branching And merging: Branching helps in creating multiple work lines of a software so that multiple developers can work concurrently on it. It can also be used to create different work lines for separate version releases. At the end, the branches can be merged making sure there is no conflict.
+* Traceability: One of the most prolific features of VCS is traceability which benefits in the long run. This includes adding a message to each change made in the code for root cause analysis or any other dynamic change to be made.
+
+
+Git/Bitbucket:
+a. Installation:
+- First of all, the installer is downloaded and the package is installed.
+- Now the windows command prompt is used to enter the email and username of the user.
+git config --global user.name "Abhijeet”.
+- In order to avoid repeated entering of credentials while accessing the remote repository, one can use git credential helper.
+- The plans for git and bitbucket vary as per the feature requirements of the user.
+- The major path for price differentiation of plans lies in the number of users using the service. Generally, it is free till 5 users. 
+- The optimal difference between the platforms Git and Bitbucket lies in the fact that GitHub is focused around public code and has a huge open source community whereas Bitbucket emphasizes more on enterprise and businesses. 
+- GitHub charges per private repo whereas Bitbucket charges per private collaborator.
+- Bitbucket is a better option when it comes to a freelance work whereas GitHub is better for open source work.
+
+Brief comparison between the basic plans of Bitbucket and GitHub
+
+FeatureBitbucketGitHubSupported VCSMercurial, GitGitPublic reposFree, unlimitedFree, unlimitedPrivate reposFree till 5 usersFreeIntegrationJira, Crucible, BambooAsana, Zendesk, AWS, Windows AzurePopular Hosted ProjectsSpoon, Jira Integration, Google2 factor authentication, GitHub Gists
+
+
+b. Configuration: 
+- The way in which this works is by cloning a repository from the given git code necessary for the given project and then working upon it.
+- Cloning a repository links it to your machine and then you can add or edit files after which you can push and pull updates.
+
+c. Basic Commands:
+- Git config: This is generally used to declare the author name and email while setting up git on your system. It can also be used to recognize your commits.
+- Git init: This command is used while setting up a repository.
+- Git clone /path/to/repository: create a clone of a local repository to start working with.
+- Git status: This is used to check the status of your repository. This also shows the branch of the repository one is currently working upon.
+- Git commit: After a certain change has been done to the code, the user can use this command to save that change as a snapshot of the repository.
+- Git add: This command brings new files into the repository as snapshots.
+- Git push: In order to make your changes visible on GitHub, you use this command to push the changes.
+- Git pull: While working on a remote PC, this command is used to obtain the most updates version of a certain repository.
+- Git branch: This command is used to create a new branch of the given repository to facilitate the developer to make changes without causing any conflicts with the other collaborators.
+- Git Merge: After the work has been done in branches consisting of work for same feature, they’re merged together by this command.
+
+d. Branches: 
+- A branch offers an independent line of development.
+- Branching offers one the option to work on a new feature or correcting a major or minor bug without affecting the main code. 
+- The git branch code allows you to create, edit and rename any branch but it doesn’t allow you to perform the operation of switching between branches or merging.
+- A branch can be created on any platform or even from a terminal and after the changes are finalized, the branch can be pushed back to git. 
+- At the end, one needs to put a pull request so that the branch can get reviewed.
+
+
+
+e. Repositories: 
+- A repository is a storage for the project one is working upon. All the changes made to a project are stored in this repository which serve as a history for the project.
+- A single project can have multiple repositories to signify various alterations made to the code.
+- A repository can be created with a git init command.
+- Generally, there are two versions of a project- one which is present online where the work is continuously updated for interaction with other collaborators and the second one which is present offline for the work to be done.
+
+f. Tracking:
+- Tracking in Git is generally done to track the files in a repository.
+- Whenever we use the git status command in git, it shows us the status of the repository after last commit i.e. whether a file has been modified or added or some action is yet to be taken. That is done by tracking in Git.
+- A tracking branch is useful in pushing or pulling changes made to files to the remote directory.
+
+
+
